@@ -1,0 +1,21 @@
+{
+  "name": "atozsites/atozsites-simple-cache",
+  "description": "A simple caching plugin for WordPress.",
+  "type": "wordpress-plugin",
+  "authors": [
+      {
+          "name": "atozsites",
+          "email": "admin@atozsites.com"
+      }
+  ],
+  "require-dev": {
+    "10up/wp_mock": "dev-dev",
+    "10up/phpcs-composer": "dev-master",
+    "phpunit/phpunit": "^6.5"
+  },
+  "scripts": {
+    "lint": "./vendor/bin/phpcs .",
+    "lint-fix": "./vendor/bin/phpcbf .",
+    "test": "./vendor/bin/phpunit"
+  }
+}
